@@ -18,7 +18,7 @@ Unwanted emails such as;
 
 - Open your terminal.
 
-- Change your working directory to where the repository is.
+- Change your working directory to the path of the cloned repository.
 
 - To use imapclient Run `python3 declutter_imapclient.py` and follow the prompts.
 
@@ -29,7 +29,7 @@ Unwanted emails such as;
 
 - Open your terminal.
 
-- Change your working directory to where the repository is.
+- Change your working directory to the path of the cloned repository.
 
 - To use imapclient Run `python3 declutter_imapclient.py` and follow the prompts.
 
@@ -40,7 +40,7 @@ Unwanted emails such as;
 
 - Open Powershell as an administrator.
 
-- Change your working directory to where the repository using the folder path.
+- Change your working directory to the path of the cloned repository.
 
 - To use imapclient Run `python3 declutter_imapclient.py` and follow the prompts.
 
