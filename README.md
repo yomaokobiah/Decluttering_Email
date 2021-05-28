@@ -2,7 +2,7 @@
 A script based on an article I wrote on decluttering emails. 
 
 ## What does this program do?
-This program is a python script that permanently deletes emails using IMAPClient. 
+This program is a python script that sends unwanted emails to the trash using imaplib or permanently deletes unwanted emails using IMAPClient. 
 Unwanted emails such as;
 - All unread emails.
 - All emails with a particular subject.
@@ -20,7 +20,9 @@ Unwanted emails such as;
 
 - Change your working directory to where the repository is.
 
-- Run `python3 declutter_imapclient.py` and follow the prompts.
+- To use imapclient Run `python3 declutter_imapclient.py` and follow the prompts.
+
+- To use imaplib Run `python3 declutter_imaplib.py` and follow the prompts.
 
 ### On Mac
 - Clone the repository.
@@ -29,7 +31,9 @@ Unwanted emails such as;
 
 - Change your working directory to where the repository is.
 
-- Run `python3 declutter_imapclient.py` and follow the prompts.
+- To use imapclient Run `python3 declutter_imapclient.py` and follow the prompts.
+
+- To use imaplib Run `python3 declutter_imaplib.py` and follow the prompts.
 
 ### On Windows
 - Clone the repository.
@@ -38,4 +42,6 @@ Unwanted emails such as;
 
 - Change your working directory to where the repository using the folder path.
 
-- Run `python3 declutter_imapclient.py` and follow the prompts.
+- To use imapclient Run `python3 declutter_imapclient.py` and follow the prompts.
+
+- To use imaplib Run `python3 declutter_imaplib.py` and follow the prompts.
