@@ -1,4 +1,4 @@
-"""This program sends unwanted emails to the trash"""
+"""This program permanently deletes emails."""
 from imapclient import IMAPClient
 import getpass
 
@@ -19,7 +19,7 @@ def trash_unread(mail, username, password):
     for x in messages:
         server.delete_messages(x)
     server.logout()
-    print(f"All {digit} unread emails have been trashed")
+    print(f"All {digit} unread emails have been deleted.")
 
 def trash_subject(mail, username, password):
     server = IMAPClient(mail, use_uid=True)
@@ -31,7 +31,7 @@ def trash_subject(mail, username, password):
     for x in messages:
         server.delete_messages(x)
     server.logout()
-    print(f"All {digit} emails with the subject {subject} have been trashed")
+    print(f"All {digit} emails with the subject {subject} have been deleted.")
 
 def trash_sender(mail, username, password):
     server = IMAPClient(mail, use_uid=True)
@@ -43,7 +43,7 @@ def trash_sender(mail, username, password):
     for x in messages:
         server.delete_messages(x)
     server.logout()
-    print(f"All {digit} emails from {sender} have been trashed")
+    print(f"All {digit} emails from {sender} have been deleted.")
 
 if response == 1:
     trash_unread(server_name, user_name, pass_word)
